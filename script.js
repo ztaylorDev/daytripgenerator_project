@@ -1,4 +1,4 @@
-let userInput = prompt("Type Get Going for your trip")
+let userInput = prompt("Type Get Go for your trip")
 
 function getRandomFood(restaurants){
     return sourceOfFood;
@@ -62,14 +62,15 @@ function getRandomReselection(betterChoice){
     console.log(reselect);
 
 
-    
-    let userInputTwo = setTimeout(function(){ prompt("Do you like your options")}, 10000);
+   
+    let userInputTwo = setTimeout(function(){ prompt("Do you like your options")}, 8000)
         if (userInputTwo === "yes"){
             console.log("Enjoy");
         }
         else{
-            console.log("press refresh for reselection");
+            console.log("Press refresh for reselection")
         }
+       
     
 
 
