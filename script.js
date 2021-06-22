@@ -9,7 +9,7 @@ function getRandomColor(color){
 
 
 color = ["purple", "blue", "orange", "black"];
-let getRandomNumber = math.random() * color;
-getRandomColor = math.floor(getRandomNumber) + 1;
+let getRandomNumber = Math.random() * color;
+getRandomColor = Math.floor(getRandomNumber) + 1;
 console.log(getRandomNumber);
 
