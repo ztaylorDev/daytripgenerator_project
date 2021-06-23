@@ -41,10 +41,6 @@ userInput = prompt("does this work yes or no?");
 }
 
 
-  
-        
-    
-
 
   
 
