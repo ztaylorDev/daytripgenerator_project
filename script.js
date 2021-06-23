@@ -1,76 +1,48 @@
-let userInput = prompt("Type Get Go for your trip")
+let food;
+let modeOfTranspo;
+let randomLocation;
+let randomEntertainment;
+let userInput;
+    randomTrip();
 
-function getRandomFood(restaurants){
-    return sourceOfFood;
-    
+while(userInput === "no"){
+        randomTrip()
 }
+console.log("This is your restaurant " + food + "," + " This is your mode of transportation " + modeOfTranspo + "," + " This is where you will be visiting " + randomLocation + "," + " and this is your entertainment for the night " + randomEntertainment + ".")
+
+
+function randomTrip(){
+
     let sourceOfFood = ["moes", "dominoes", "rocos tacos"];
-    let food = sourceOfFood[Math.floor(Math.random() * sourceOfFood.length)];
+    food = sourceOfFood[Math.floor(Math.random() * sourceOfFood.length)];
     console.log(food);
 
 
-
-
-
-
-
-
-
-
-// let generatedTransportation = getRandomSelection(transportation);
-
-function getRandomTransportation(vehicle){
-    return transportation;
-}
     let transportation = ["bus", "train", "plane"];
-    let modeOfTranspo = transportation[Math.floor(Math.random() * transportation.length)];
+     modeOfTranspo = transportation[Math.floor(Math.random() * transportation.length)];
     console.log(modeOfTranspo); 
 
 
 
 
-
-// let generateddestination = getRandomSelection(destination);
-
-function getRandomDestination(destiny){
-    return destination;
-}
     let destination = ["hawaii", "tampa", "texas"];
-    let randomLocation = destination[Math.floor(Math.random() * destination.length)];
+    randomLocation = destination[Math.floor(Math.random() * destination.length)];
     console.log(randomLocation); 
 
 
 
 
-
-// let generatedentertainment = getRandomSelection(entertainment);
-function getRandomEntertainment(showtime){
-    return entertainment;
-}
     let entertainment = ["comedy show", "concert", "movie"];
-    let randomEntertainment = entertainment[Math.floor(Math.random() * entertainment.length)];
+    randomEntertainment = entertainment[Math.floor(Math.random() * entertainment.length)];
     console.log(randomEntertainment); 
 
+userInput = prompt("does this work yes or no?");
 
-
-function getRandomReselection(betterChoice){
-    return getRandomReselection;
 }
 
-    let randomReselection = ["moes", "dominoes", "rocos tacos"]
-    let reselect = randomReselection[Math.floor(Math.random() * randomReselection.length)];
-    console.log(reselect);
 
-
-   
-    let userInputTwo = setTimeout(function(){ prompt("Do you like your options")}, 8000)
-        if (userInputTwo === "yes"){
-            console.log("Enjoy");
-        }
-        else{
-            console.log("Press refresh for reselection")
-        }
-       
+  
+        
     
 
 
